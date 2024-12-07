@@ -1,0 +1,198 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+/* Encabezado */
+.header {
+    background-color: #00000085;
+    color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+}
+
+/* Contenido principal */
+.main-content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Secciones */
+.section {
+    margin: 40px 0;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.profile-image {
+    width: 300px;
+    height: 350px;
+}
+
+.about-text {
+    flex: 2;
+}
+
+/* Proyectos */
+.proyectos article {
+    margin-bottom: 40px;
+}
+
+/* Estilos para todas las imágenes de proyectos */
+.project-image {
+    width: 100%; /* Asegura que todas las imágenes ocupen el 100% de su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 5px; /* Bordes redondeados para todas las imágenes */
+}
+
+/* Estilos específicos para cada imagen */
+/* Modifica la imagen del Sistema de Gestión Académica */
+.project-image-sga {
+    height: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+}
+
+/* Modifica la imagen de la Aplicación de Tareas */
+.project-image-tareas {
+    height: 270px;
+    filter: grayscale(50%); /* Filtro en escala de grises para la imagen de la Aplicación de Tareas */
+    transition: filter 0.3s; /* Transición suave para el filtro */
+}
+
+.project-image-tareas:hover {
+    filter: none; /* Elimina el filtro al pasar el mouse */
+}
+
+/* Modifica la imagen del Portafolio Personal */
+.project-image-portafolio {
+    height: 280px;
+    opacity: 0.9; /* Opacidad para la imagen del Portafolio Personal */
+    transition: opacity 0.3s; /* Transición suave para la opacidad */
+}
+
+.project-image-portafolio:hover {
+    opacity: 1; /* Aumenta la opacidad al pasar el mouse */
+}
+
+/* Formulario de contacto */
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #4756df;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #ff7235;
+}
+
+/* Tabla de información adicional */
+.info-table {
+    width: 100%;
+    border-collapse: collapse; /* Asegura que las celdas se colapsen y no haya espacio entre ellas */
+    margin-top: 20px; /* Espacio superior para la tabla */
+}
+
+.info-table th, .info-table td {
+    border: 1px solid #ccc; /* Borde gris claro para las celdas */
+    padding: 10px; /* Espaciado interno en las celdas */
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+.info-table th {
+    background-color: #d0e1ff; /* Color de fondo azul claro para los encabezados */
+}
+
+/* Estilos para el enlace "Volver arriba" */
+.back-to-top {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-to-top:hover {
+    background: #555;
+}
+
+/* Estilos de pie de página */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}

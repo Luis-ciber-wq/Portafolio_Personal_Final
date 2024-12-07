@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Luis</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body id="top"> <!-- Agregamos el ID "top" aquí -->
+
+    <!-- Encabezado -->
+    <header class="header">
+        <h1 class="MiPortafolio">Mi Portafolio</h1>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#info-adicional">Información Adicional</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="main-content">
+
+        <!-- Sección: Sobre mí -->
+        <section class="about-section" id="sobre-mi">
+            <h2 class="section-title">Sobre mí</h2>
+            <article class="about-container">
+                <figure class="profile-container">
+                    <img src="imagenes/fotoperfil.jpeg" alt="Foto de perfil de Luis Fernando" class="profile-image">
+                </figure>
+                <section class="about-text">
+                    <p>Hola, soy Luis Fernando Leon Pinango, un apasionado del desarrollo web y estudiante de 3er semestre en la carrera de Sistemas de Información en la Universidad Técnica de Babahoyo. Mi objetivo es convertirme en un desarrollador web especializado en soluciones intuitivas y eficientes, contribuyendo a proyectos innovadores en tecnología que impacten positivamente en la experiencia del usuario.</p>
+                    <p>He trabajado en varios Proyectos de Integración de Saberes (PIS) en la universidad, los cuales fueron bien recibidos y me ayudaron a consolidar mis habilidades en estructuración y organización de contenidos. A través de estos proyectos, he adquirido experiencia en la creación de soluciones prácticas y en la resolución de problemas comunes en el desarrollo web.</p>
+                    <p>Me interesa seguir explorando el desarrollo de interfaces de usuario, con un énfasis particular en UX/UI y frameworks modernos como React, buscando siempre mejorar continuamente mis habilidades para ofrecer experiencias atractivas y funcionales a los usuarios finales. Creo que la dedicación y el esfuerzo en equipo son clave para alcanzar grandes resultados y llevar la tecnología al siguiente nivel. Me guío por el compromiso en cada proyecto, buscando siempre soluciones prácticas y útiles para los usuarios. Para mí, cada proyecto es una oportunidad de aprendizaje y un paso hacia mi meta profesional.</p>
+                </section>
+            </article>
+        </section>
+
+        <!-- Sección: Habilidades -->
+        <section class="section habilidades" id="habilidades">
+            <h2>Habilidades</h2>
+            <article>
+                <p>Poseo una sólida comprensión de las tecnologías de desarrollo web, con habilidades destacadas en HTML5 y CSS3. Estos conocimientos me permiten construir sitios bien estructurados, organizados y visualmente atractivos, siguiendo los principios básicos de accesibilidad y usabilidad. He trabajado de manera continua en mejorar mi manejo de JavaScript, que considero fundamental para dotar de interactividad y dinamismo a las páginas web, y recientemente he comenzado a profundizar en React, una de las bibliotecas de JavaScript más demandadas, para la creación de interfaces de usuario eficaces y funcionales.</p>
+                <p>En el lado del desarrollo de backend, tengo experiencia inicial en Node.js y bases de datos como MySQL, los cuales empleo para gestionar datos y construir aplicaciones que sean capaces de almacenar, manipular y servir información de forma eficiente. Además, considero a Git una herramienta esencial en mi flujo de trabajo para el control de versiones, permitiéndome colaborar en proyectos y mantener un seguimiento claro de las actualizaciones y mejoras. En conjunto, estas habilidades reflejan mi compromiso con la mejora continua y el aprendizaje de nuevas tecnologías que puedan añadir valor a mis proyectos y a las soluciones que propongo.</p>
+            </article>
+        </section>
+
+        <!-- Sección: Proyectos -->
+        <section class="section proyectos" id="proyectos">
+            <h2>Proyectos</h2>
+            
+            <article>
+                <h3>Sistema de Gestión Académica</h3 <img src="imagenes/sga.jpg" alt="Sistema de Gestión Académica" class="project-image project-image-sga">
+                <p><strong>Objetivo:</strong> Desarrollar una solución web para gestionar la información académica de una institución educativa. El sistema incluye módulos para el manejo de estudiantes, asignaturas y notas, optimizando la accesibilidad de los datos para los usuarios.</p>
+    
+                <p><strong>Tecnologías utilizadas:</strong> HTML5, JavaScript, MySQL, Node.js</p>
+                
+                <p><strong>Desafíos:</strong> Uno de los mayores desafíos fue la implementación de la seguridad en el acceso a los datos sensibles. Utilicé un sistema de autenticación basado en JWT para garantizar que solo los usuarios autorizados pudieran acceder a la plataforma. Otro reto fue optimizar la interfaz para que fuera intuitiva y fácil de usar para el personal administrativo, que no siempre tiene experiencia técnica.</p>
+                
+                <p><strong>Soluciones:</strong> Implementé un diseño simple y limpio para la interfaz de usuario, asegurándome de que fuera fácil de navegar. Además, utilicé AJAX para hacer que las interacciones con el servidor fueran más rápidas y fluidas, mejorando la experiencia general.</p>
+                
+                <p><strong>Resultado:</strong> El sistema ahora es capaz de gestionar de manera eficiente las asignaturas, estudiantes y notas. Ha sido probado con éxito por el personal académico, y ha reducido significativamente el tiempo que lleva actualizar y consultar los registros.</p>
+                
+                <p><strong>Lecciones aprendidas:</strong> Aprendí mucho sobre la integración de bases de datos con Node.js y la importancia de ofrecer una experiencia de usuario accesible. También mejoré mis habilidades en la gestión de datos y en el desarrollo de aplicaciones web seguras.</p>
+                
+            </article>
+            
+            <article>
+                <h3>Aplicación de Tareas</h3>
+                <img src="imagenes/tody.jpg" alt="Aplicación de Tareas" class="project-image project-image-tareas">
+                <p><strong>Objetivo:</strong> Crear una aplicación web de gestión de tareas colaborativa, donde los usuarios pueden asignar tareas, establecer fechas de vencimiento y recibir notificaciones.</p>
+    
+                <p><strong>Mi rol:</strong> Fui responsable del diseño de la interfaz de usuario y de la implementación de las funcionalidades de JavaScript para la interacción dinámica con el DOM. También participé en la integración de la API de notificaciones.</p>
+    
+                <p><strong>Tecnologías utilizadas:</strong> HTML5, CSS3, JavaScript, Firebase</p>
+    
+                <p><strong>Desafíos:</strong> La principal dificultad fue la integración de las notificaciones en tiempo real, ya que implicaba el uso de Firebase para la comunicación entre los usuarios en tiempo real.</p>
+    
+                <p><strong>Soluciones:</strong> Después de investigar, logré integrar con éxito las notificaciones push utilizando Firebase Cloud Messaging, lo que permitió que los usuarios recibieran alertas inmediatas sobre nuevas tareas o cambios.</p>
+    
+                <p><strong>Resultado:</strong> La aplicación ahora permite a los usuarios gestionar tareas de manera eficiente y recibir notificaciones en tiempo real. Hemos recibido comentarios positivos de los usuarios sobre la facilidad de uso de la interfaz.</p>
+    
+            </article>
+            
+            <article>
+                <h3>Portafolio Personal</h3>
+                <img src="imagenes/ME.jpg" alt="Portafolio Personal" class="project-image project-image-portafolio">
+                <p><strong>Objetivo:</strong> Este portafolio fue diseñado para mostrar mis habilidades, proyectos y experiencia profesional de una manera organizada y accesible. Implementé una estructura HTML5 semántica, destacando la importancia de cada sección y optimizando la navegación. Este proyecto me permitió perfeccionar mis habilidades en la estructuración y presentación de contenidos.</p>
+                
+                <p><strong>Tecnologías utilizadas:</strong> HTML5, CSS3, JavaScript</p>
+                
+                <p><strong>Desafíos:</strong> Uno de los mayores desafíos fue asegurar que el portafolio fuera accesible y bien estructurado en todos los dispositivos. Utilicé diseño responsivo para garantizar que fuera visualmente atractivo tanto en móviles como en computadoras de escritorio.</p>
+                
+                <p><strong>Soluciones:</strong> Implementé una estructura semántica de HTML5 y utilicé CSS3 para asegurar la adaptabilidad de la página a diferentes tamaños de pantalla. También optimicé el rendimiento del sitio mediante la minimización de archivos CSS y JS.</p>
+                
+                <p><strong>Resultado:</strong> El portafolio está completamente funcional, con una interfaz limpia y profesional . Es una herramienta eficaz para mostrar mi trabajo y habilidades a posibles empleadores o clientes.</p>
+            </article>
+        </section>
+
+        <!-- Sección: Contacto -->
+        <section class="section contacto" id="contacto">
+            <h2>Contacto</h2>
+            <form class="contact-form">
+                <label>Nombre:</label>
+                <input type="text" name="nombre" required>
+                <label>Correo electrónico:</label>
+                <input type="email" name="correo" required>
+                <label>Mensaje:</label>
+                <textarea name="mensaje" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <p class="confirmation-message" hidden>¡Gracias por tu mensaje! Me pondré en contacto contigo pronto.</p>
+        </section>
+
+        <!-- Sección: Información Adicional -->
+        <section class="section info-adicional" id="info-adicional">
+            <h2>Información Adicional</h2>
+            <table class="info-table">
+                <thead>
+                    <tr>
+                        <th>Habilidad</th>
+                        <th>Nivel</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML5</td>
+                        <td>Intermedio</td>
+                        <td>Capaz de crear estructuras semánticas completas, optimizando la accesibilidad y usabilidad.</td>
+                    </tr>
+                    <tr>
+                        <td>CSS3</td>
+                        <td>Intermedio</td>
+                        <td>Conocimiento suficiente para realizar estilos personalizados y layouts responsivos básicos.</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Básico</td>
+                        <td>Habilidad en manipulación del DOM y creación de interactividad simple.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <!-- Enlace para volver arriba -->
+    <a href="#top" class="back-to-top">Volver arriba</a> <!-- Enlace agregado aquí -->
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <p>&copy; 2024 Luis. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        // Comportamiento suave para el enlace "Volver arriba"
+        document.querySelector('.back-to-top').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Desplazamiento suave
+            });
+        });
+    </script>
+</body>
+</html>
